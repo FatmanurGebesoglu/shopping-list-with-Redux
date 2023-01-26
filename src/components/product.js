@@ -33,4 +33,6 @@ const mapStateToProps = (state) => {
   }
 }
 
+
+
 export default connect(mapStateToProps, { addBasket })(Products)
